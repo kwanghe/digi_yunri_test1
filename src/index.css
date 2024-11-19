@@ -1,0 +1,156 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+  }
+}
+
+@layer components {
+  .text-h1 {
+    font-family: 'Pretendard';
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+    letter-spacing: -0.025em;
+    line-height: 48px;
+  }
+
+  .text-h2 {
+    font-family: 'Pretendard';
+    font-weight: 700;
+    font-size: 30px;
+    color: #111111;
+    letter-spacing: -0.025em;
+    line-height: 24px;
+  }
+
+  .text-h3 {
+    font-family: 'Pretendard';
+    font-weight: 700;
+    font-size: 24px;
+    color: #111111;
+    letter-spacing: -0.025em;
+    line-height: 24px;
+  }
+
+  .text-body1 {
+    font-family: 'Pretendard';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: -0.025em;
+    line-height: 24px;
+  }
+
+  .text-body2 {
+    font-family: 'Pretendard';
+    font-weight: 400;
+    font-size: 16px;
+    color: #4B5563;
+    letter-spacing: -0.025em;
+    line-height: 48px;
+  }
+
+  .text-subtitle1 {
+    font-family: 'Pretendard';
+    font-weight: 500;
+    font-size: 18px;
+    color: #111111;
+    letter-spacing: -0.025em;
+    line-height: 30px;
+  }
+
+  .text-subtitle2 {
+    font-family: 'Pretendard';
+    font-weight: 500;
+    font-size: 18px;
+    color: #111111;
+    letter-spacing: -0.025em;
+    line-height: 24px;
+  }
+
+  .text-button1 {
+    font-family: 'Pretendard';
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: -0.025em;
+    line-height: 24px;
+  }
+
+  .text-button2 {
+    font-family: 'Pretendard';
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: -0.025em;
+    line-height: 24px;
+  }
+
+  .text-caption1 {
+    font-family: 'Pretendard';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: -0.025em;
+    line-height: 28px;
+  }
+
+  .text-caption2 {
+    font-family: 'Pretendard';
+    font-weight: 700;
+    font-size: 16px;
+    color: #00E6FF;
+    letter-spacing: -0.025em;
+    line-height: 28px;
+  }
+
+  .text-label {
+    font-family: 'Pretendard';
+    font-weight: 700;
+    font-size: 20px;
+    color: #111111;
+    letter-spacing: -0.025em;
+    line-height: 24px;
+    text-transform: uppercase;
+  }
+}
+
+:root {
+  font-family: 'Pretendard', system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: rgba(248, 247, 255, 1);
+}
