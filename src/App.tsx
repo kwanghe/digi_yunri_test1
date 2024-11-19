@@ -18,7 +18,7 @@ import Home4 from './pages/Home4';
 function App() {
   return (
     <ProgressProvider>
-      <Router basename={import.meta.env.BASE_URL}>
+      <Router>
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
