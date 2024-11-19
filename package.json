@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://kwanghe.github.io/digi_yunri_test1",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
